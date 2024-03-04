@@ -48,9 +48,9 @@ A candidate is considered "hired" when they have scores greater than or equal to
     - Challenge.ipynb -> Data processing
 
 ## Step 3: Graphics
-    Connect Power BI Desktop to 'ScriptVisualization' to run the report
+Connect Power BI Desktop to `ScriptVisualization` to run the report
 
 ## Step 4: Dashboard
-      Report published: https://app.powerbi.com/view?r=eyJrIjoiNzUzNjgwYWUtODcxZi00OWM5LWI2ZWQtN2VmM2ViODgzMjdiIiwidCI6IjY5M2NiZWEwLTRlZjktNDI1NC04OTc3LTc2ZTA1Y2I1ZjU1NiIsImMiOjR9&pageName=ReportSection08db08d3c0ae3ee36dcf
+    https://app.powerbi.com/view?r=eyJrIjoiNzUzNjgwYWUtODcxZi00OWM5LWI2ZWQtN2VmM2ViODgzMjdiIiwidCI6IjY5M2NiZWEwLTRlZjktNDI1NC04OTc3LTc2ZTA1Y2I1ZjU1NiIsImMiOjR9&pageName=ReportSection08db08d3c0ae3ee36dcf
 ***
 # Conclusions
