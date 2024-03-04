@@ -1,4 +1,4 @@
-<em> # Python Data Engineer Code Challenge </em>
+# Python Data Engineer Code Challenge
 ***
 This repository contains the code developed for the Python Data Engineer technical challenge.
 
@@ -15,7 +15,7 @@ The objective of the challenge is to show metrics and visualizations from a set 
 
 # Technologies Used
 ***
-  * ![Python](https://iconos8.es/icon/13441/python) Python
+  * ![Python](![image](https://github.com/sslo12/Workshop-1-ETL/assets/115416417/b23a91ab-151a-4dd8-b421-fc87111e3481) Python
   * ![jupiter](https://cdn.icon-icons.com/icons2/2667/PNG/512/jupyter_app_icon_161280.png) Jupyter Notebook
   * ![mysql](https://cdn.icon-icons.com/icons2/2415/PNG/512/mysql_original_wordmark_logo_icon_146417.png) Relational database (MySQL)
   * ![power](https://iconos8.es/icon/Ny0t2MYrJ70p/power-bi-2021) Power BI Desktop
@@ -52,10 +52,10 @@ A candidate is considered "hired" when they have scores greater than or equal to
   - EDA.ipynb -> Exploratory Dataset Analysis
   - Challenge.ipynb -> Data processing
 
-## Step 3:
+## Step 3: Graphics
   Connect Power BI Desktop to 'ScriptVisualization' to run the report
 
-## Step 4:
+## Step 4: Dashboard
   Report published: https://app.powerbi.com/view?r=eyJrIjoiNzUzNjgwYWUtODcxZi00OWM5LWI2ZWQtN2VmM2ViODgzMjdiIiwidCI6IjY5M2NiZWEwLTRlZjktNDI1NC04OTc3LTc2ZTA1Y2I1ZjU1NiIsImMiOjR9&pageName=ReportSection08db08d3c0ae3ee36dcf
 ***
 
