@@ -15,7 +15,7 @@ The objective of the challenge is to show metrics and visualizations from a set 
 
 # Technologies Used
 ***
-  * <span>[https://github.com/sslo12/Workshop-1-ETL/assets/115416417/b23a91ab-151a-4dd8-b421-fc87111e3481</span><span>)</span>
+  * <span>![</span><span>PY</span><span>]</span><span>(</span><span>https://cdn.icon-icons.com/icons2/2667/PNG/512/jupyter_app_icon_161280.png</span><span>)</span>
   * ![Python](![image](https://github.com/sslo12/Workshop-1-ETL/assets/115416417/b23a91ab-151a-4dd8-b421-fc87111e3481) Python
   * ![jupiter](https://cdn.icon-icons.com/icons2/2667/PNG/512/jupyter_app_icon_161280.png) Jupyter Notebook
   * ![mysql](https://cdn.icon-icons.com/icons2/2415/PNG/512/mysql_original_wordmark_logo_icon_146417.png) Relational database (MySQL)
