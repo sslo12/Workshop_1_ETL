@@ -8,13 +8,14 @@ The objective of the challenge is to show metrics and visualizations from a set 
 
 * Load data from a CSV to a relational database
 * Develop visualizations showing:
-    * Hires by technology (pie chart)
-    * Hires by year (horizontal bar chart)
-    * Hires by seniority (vertical bar chart)
-    * Hires by country over the years (USA, Brazil, Colombia and Ecuador) (multiple line chart)
+    - Hires by technology (pie chart)
+    - Hires by year (horizontal bar chart)
+    - Hires by seniority (vertical bar chart)
+    - Hires by country over the years (USA, Brazil, Colombia and Ecuador) (multiple line chart)
 
 # Technologies Used
 ***
+  * <span>[https://github.com/sslo12/Workshop-1-ETL/assets/115416417/b23a91ab-151a-4dd8-b421-fc87111e3481</span><span>)</span>
   * ![Python](![image](https://github.com/sslo12/Workshop-1-ETL/assets/115416417/b23a91ab-151a-4dd8-b421-fc87111e3481) Python
   * ![jupiter](https://cdn.icon-icons.com/icons2/2667/PNG/512/jupyter_app_icon_161280.png) Jupyter Notebook
   * ![mysql](https://cdn.icon-icons.com/icons2/2415/PNG/512/mysql_original_wordmark_logo_icon_146417.png) Relational database (MySQL)
