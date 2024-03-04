@@ -15,12 +15,12 @@ The objective of the challenge is to show metrics and visualizations from a set 
 
 # Technologies Used
 ***
-  * <span>![</span><span>PY</span><span>]</span><span>(</span><span>https://cdn.icon-icons.com/icons2/2667/PNG/512/jupyter_app_icon_161280.png</span><span>)</span>
+  * <img src="https://github.com/sslo12/Workshop-1-ETL/assets/115416417/b23a91ab-151a-4dd8-b421-fc87111e3481)" alt="Looker Studio" width="21px" height="21px"> **[Python]**.
   * ![Python](![image](https://github.com/sslo12/Workshop-1-ETL/assets/115416417/b23a91ab-151a-4dd8-b421-fc87111e3481) Python
   * ![jupiter](https://cdn.icon-icons.com/icons2/2667/PNG/512/jupyter_app_icon_161280.png) Jupyter Notebook
   * ![mysql](https://cdn.icon-icons.com/icons2/2415/PNG/512/mysql_original_wordmark_logo_icon_146417.png) Relational database (MySQL)
   * ![power](https://iconos8.es/icon/Ny0t2MYrJ70p/power-bi-2021) Power BI Desktop
-
+***
 # Data Information
 ***
 The provided data corresponds to 50k random records of candidates.csv with the following fields:
@@ -37,12 +37,12 @@ The provided data corresponds to 50k random records of candidates.csv with the f
   * Technical Interview
 
 A candidate is considered "hired" when they have scores greater than or equal to 7 in the last two metrics.
-
+***
 # Structure
    * data/: Contains the original CSV data file
    * notebooks/: Jupyter notebooks with database loading and visualization code
    * visualization/: Files with generated visualizations
-
+***
 # Implementation Instructions
 ***
 ## Step 1: Clone the Repository
