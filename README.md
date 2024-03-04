@@ -1,9 +1,7 @@
 # Python Data Engineer Code Challenge
-***
 This repository contains the code developed for the Python Data Engineer technical challenge.
-
-# Objective
 ***
+# Objective
 The objective of the challenge is to show metrics and visualizations from a set of candidate data for selection processes. It must:
 
 * Load data from a CSV to a relational database
@@ -12,17 +10,14 @@ The objective of the challenge is to show metrics and visualizations from a set 
     - Hires by year (horizontal bar chart)
     - Hires by seniority (vertical bar chart)
     - Hires by country over the years (USA, Brazil, Colombia and Ecuador) (multiple line chart)
-
-# Technologies Used
 ***
-  * <img src="https://github.com/sslo12/Workshop-1-ETL/assets/115416417/b23a91ab-151a-4dd8-b421-fc87111e3481)" alt="Looker Studio" width="21px" height="21px"> **[Python]**.
-  * ![Python](![image](https://github.com/sslo12/Workshop-1-ETL/assets/115416417/b23a91ab-151a-4dd8-b421-fc87111e3481) Python
-  * ![jupiter](https://cdn.icon-icons.com/icons2/2667/PNG/512/jupyter_app_icon_161280.png) Jupyter Notebook
-  * ![mysql](https://cdn.icon-icons.com/icons2/2415/PNG/512/mysql_original_wordmark_logo_icon_146417.png) Relational database (MySQL)
-  * ![power](https://iconos8.es/icon/Ny0t2MYrJ70p/power-bi-2021) Power BI Desktop
+# Technologies Used
+  * <img src="https://github.com/sslo12/Workshop-1-ETL/assets/115416417/b23a91ab-151a-4dd8-b421-fc87111e3481" alt="Looker Studio" width="21px" height="21px"> Python
+  * <img src="https://cdn.icon-icons.com/icons2/2667/PNG/512/jupyter_app_icon_161280.png" alt="Looker Studio" width="21px" height="21px"> Jupyter Notebook
+  * <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mysql_original_wordmark_logo_icon_146417.png" alt="Looker Studio" width="21px" height="21px"> Relational database (MySQL)
+  * <img src="https://1000marcas.net/wp-content/uploads/2022/08/Microsoft-Power-BI-Logo.png" alt="Looker Studio" width="21px" height="21px"> Power BI Desktop
 ***
 # Data Information
-***
 The provided data corresponds to 50k random records of candidates.csv with the following fields:
 
   * Name
@@ -44,7 +39,6 @@ A candidate is considered "hired" when they have scores greater than or equal to
    * visualization/: Files with generated visualizations
 ***
 # Implementation Instructions
-***
 ## Step 1: Clone the Repository
   git clone https://github.com/sslo12/Workshop-1-ETL
 
@@ -59,5 +53,4 @@ A candidate is considered "hired" when they have scores greater than or equal to
 ## Step 4: Dashboard
   Report published: https://app.powerbi.com/view?r=eyJrIjoiNzUzNjgwYWUtODcxZi00OWM5LWI2ZWQtN2VmM2ViODgzMjdiIiwidCI6IjY5M2NiZWEwLTRlZjktNDI1NC04OTc3LTc2ZTA1Y2I1ZjU1NiIsImMiOjR9&pageName=ReportSection08db08d3c0ae3ee36dcf
 ***
-
 # Conclusions
