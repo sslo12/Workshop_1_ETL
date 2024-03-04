@@ -1,0 +1,46 @@
+import pandas as pd
+from sqlalchemy import create_engine
+
+host = 'localhost'
+user = 'Slo'
+password = 'password'
+database = 'candidatesdb'
+
+url_sql = f"mysql+pymysql://{user}:{password}@{host}/{database}"
+
+conn = create_engine(url_sql)
+
+queryhired = """
+SELECT CAST(SUM(hiredcandi) AS SIGNED) AS total_hiredcandi
+FROM candidates
+"""
+df_hired = pd.read_sql(queryhired, conn)
+
+query_technology = """
+SELECT technology, COUNT(*) AS hiring
+FROM candidates WHERE hiredcandi = TRUE
+GROUP BY technology
+"""
+df_technology = pd.read_sql(query_technology, conn)
+
+query_year = """
+SELECT YEAR(application_date) AS year, COUNT(*) AS hiring
+FROM candidates WHERE hiredcandi = TRUE
+GROUP BY YEAR(application_date)
+"""
+df_year = pd.read_sql(query_year, conn)
+
+query_seniority = """
+SELECT seniority, COUNT(*) AS hiring
+FROM candidates WHERE hiredcandi = TRUE
+GROUP BY seniority
+"""
+df_seniority = pd.read_sql(query_seniority, conn)
+
+query_country_year = """
+SELECT country, YEAR(application_date) AS year, COUNT(*) AS hiring
+FROM candidates WHERE hiredcandi = TRUE
+AND country IN ('United States of America', 'Brazil', 'Colombia', 'Ecuador')
+GROUP BY country, YEAR(application_date)
+"""
+df_country_year = pd.read_sql(query_country_year, conn)
