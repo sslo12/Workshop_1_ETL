@@ -52,5 +52,3 @@ Connect Power BI Desktop to `ScriptVisualization` to run the report
 
 ### Step 4: Dashboard
 <sub>https://app.powerbi.com/links/kxYRj3CA2Y?ctid=693cbea0-4ef9-4254-8977-76e05cb5f556&pbi_source=linkShare</sub>
-***
-# Conclusions
