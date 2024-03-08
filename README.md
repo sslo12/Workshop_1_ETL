@@ -33,19 +33,25 @@ The provided data corresponds to 50k random records of candidates.csv with the f
 
 A candidate is considered "hired" when they have scores greater than or equal to 7 in the last two metrics.
 ***
-# Structure
-   * data/: Contains the original CSV data file
-   * notebooks/: Jupyter notebooks with database loading and visualization code
-   * visualization/: Files with generated visualizations
+# Workflow
+   ├── data
+   │   └── datasetcandidates.csv		<- Candidates data CSV.
+   ├── notebooks
+   │   ├── Challenge.ipynb		     	<- Data processing.
+   │   └── EDA.ipynb				    <- Exploratory Data Analysis (EDA).
+   │   └── config.ini				    <- Database configuration.
+   │   └── connection and loading.ipynb	<- Database connection (MySQL).
+   ├──.gitignore				        <- All hidden files
+   └──   README.md			            <- The README with all the information needed to run the application.
 ***
 # Implementation Instructions
 ### Step 1: Clone the Repository
     git clone https://github.com/sslo12/Workshop-1-ETL
 
 ### Step 2: Execute step-by-step these notebooks in the following order
-  - connection and loading.ipynb -> Database connection and csv loading
-  - EDA.ipynb -> Exploratory Dataset Analysis
-  - Challenge.ipynb -> Data processing
+  - connection and loading.ipynb     -> Database connection and csv loading
+  - EDA.ipynb                        -> Exploratory Dataset Analysis
+  - Challenge.ipynb                  -> Data processing
 
 ### Step 3: Graphics
 Connect Power BI Desktop to `ScriptVisualization` to run the report
