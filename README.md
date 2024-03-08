@@ -34,15 +34,7 @@ The provided data corresponds to 50k random records of candidates.csv with the f
 A candidate is considered "hired" when they have scores greater than or equal to 7 in the last two metrics.
 ***
 # Workflow
-   ├── data
-   │   └── datasetcandidates.csv		<- Candidates data CSV.
-   ├── notebooks
-   │   ├── Challenge.ipynb		     	<- Data processing.
-   │   └── EDA.ipynb				    <- Exploratory Data Analysis (EDA).
-   │   └── config.ini				    <- Database configuration.
-   │   └── connection and loading.ipynb	<- Database connection (MySQL).
-   ├──.gitignore				        <- All hidden files
-   └──   README.md			            <- The README with all the information needed to run the application.
+![image](https://github.com/sslo12/Workshop-1/assets/115416417/0bbbacad-b0c4-4b54-a73e-9d69e71921f7)
 ***
 # Implementation Instructions
 ### Step 1: Clone the Repository
