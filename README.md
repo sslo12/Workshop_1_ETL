@@ -1,5 +1,6 @@
 # Python Data Engineer Code Challenge
-This repository contains the code developed for the Python Data Engineer technical challenge.
+This repository contains the code developed for the Python Data Engineer technical challenge, its main purpose is to demonstrate in a tangible way a complete data Extraction, Processing and Data Ingestion (ETL) flow using tools such as Python and SQLAlchemy. In this work, he uses information about job applicants at a technology company. After applying sequences of manipulation to the data including data collection, cleansing and restructuring, the results are stored in a structured database for further visual analysis in Power BI.
+
 ***
 # Objective
 The objective of the challenge is to show metrics and visualizations from a set of candidate data for selection processes. It must:
